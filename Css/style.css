@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'LemonMilk';
+  src: url(LemonMilklight.otf);
+}
+
+* {
+  font-family: 'LemonMilk';
+  box-sizing: border-box;
+}
+
+.chatContainer {
+  width: 400px;
+  height: auto;
+  border: 2px solid #56E9AE;
+  border-radius: 10px;
+}
+
+.chatContainer > .chatHeader {
+  width: 100%;
+  background: #56E9AE;
+  padding: 5px;
+  border-bottom: 1px solid #ddd;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.chatContainer > .chatHeader h3{
+  margin: 0;
+  padding: 0;
+
+  font-weight: 400;
+  color: #333;
+}
+
+.chatContainer > .chatMessages{
+  height: 85%;
+  border-bottom: 1px solid #ddd;
+  overflow: scroll;
+}
+
+.chatContainer > .chatBottom form input[type='submit']{
+  padding: 6px;
+  background: white;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.chatContainer > .chatBottom form input[type='text']{
+  width: 85%;
+  padding: 3px;
+  padding-left: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 5px;
+  height: 30px;
+}
+
+.cm {
+  list-style: none;
+  border-bottom: 1px solid #ddd;
+  padding: 5px;
+}
